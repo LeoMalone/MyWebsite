@@ -1,0 +1,814 @@
+---
+title: Liam Maloney
+permalink: /
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="assets/site-img/favicon.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/custom.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <section class="hero is-fullheight is-dark background">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is is-multiline">
+                    <div class="column is-narrow">
+                        <figure class="image is-256x256">
+                            <img class="is-rounded" src="assets/site-img/me.png">
+                        </figure>
+                    </div>
+                    <div class="column is-narrow">
+                        <h1 class="title is-1 bangers-font">
+                            Liam Maloney
+                        </h1>
+                        <hr>
+                        <h2 class="subtitle is-4">
+                            Interactive Resume
+                        </h2>
+                    </div>
+                    <div class="column is-offset-1">
+                        <span class="title is-4">
+                            <em>“We can only see a short distance ahead, but we can see plenty there that needs to be done.”</em>
+                        </span>
+                        <span class="title is-6">- Alan Turing</span>                        
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot is-light bangers-font">
+            <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a onclick="myNameSpace.scrollTo('#aboutMe')">About Me</a>
+                    </li>
+                    <li>
+                        <a onclick="myNameSpace.scrollTo('#skills')">Skills</a>
+                    </li>
+                    {% comment %} <li>
+                        <a onclick="myNameSpace.scrollTo('#aboutMe')">Education</a>
+                    </li> {% endcomment %}
+                    <li>
+                        <a onclick="myNameSpace.scrollTo('#projects')">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="aboutMe" class="hero is-fullheight is-light is-bold background">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">                    
+                    <div class="column is-two-thirds">
+                       <div class="content is-large">
+                            <h2 class="title is-4 bangers-font">A Short Bio.</h2>
+                            I'm a junior developer with workplace experience as a full stack web applications developer, 
+                            as well as a growing amount of personal experience through personal and contracted projects. 
+                            I'm always looking to improve and expand my programming repertoire and my interest in all things 
+                            programming has kept me motivated to pursue a career as a developer. Throughout my 
+                            schooling and work experience (albeit limited), I have continued this passion in the form of 
+                            continued education and production of the best possible product within my capabilities. 
+                            I feel that if I am pointed in the right direction I can be an asset to any development team.
+                       </div>
+                    </div>
+                    <div class="column is-narrow">
+                        <h1 class="title is-1 bangers-font">About Me</h1>
+                        <hr class="has-background-dark">
+                        <h2><b>Name:</b> Liam Maloney</h2>
+                        <h2><b>Age:</b> 23</h2>
+                        <h2><b>Location:</b> Ottawa, Ontario, Canada</h2>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="hero is-fullheight is-dark is-bold background">
+        <div class="hero-body">
+            <div class="container is-fluid">
+                <div class="columns is-vcentered">                    
+                    <div class="column is-one-fifth">
+                        <h1 class="title is-1 bangers-font">My Skills</h1>
+                        <hr class="has-background-light">
+                        <h2>A list of programming tools and technologies that I have experince with.</h2>
+                    </div>
+                    <div class="column">
+                        
+                        <div class="tile is-ancestor">
+                            <div class="tile is-parent is-vertical">
+                                <div class="tile is-child box has-background-light">
+                                    <p class="subtitle bangers-font has-text-dark">Operating Systems</p>
+                                    <div class="content">
+                                        <div class="columns is-multiline is-gapless">
+                                            <div class="column is-full">
+                                                <div class="columns is-mobile is-multiline is-gapless">
+                                                    <div class="column">
+                                                        <p class="bd-notification is-info">Windows</p>
+                                                    </div>
+                                                    <div class="column is-narrow">
+                                                        <p class="bd-notification is-info">
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column is-full">
+                                                <div class="columns is-mobile is-multiline is-gapless">
+                                                    <div class="column">
+                                                        <p class="bd-notification is-info">Linux</p>
+                                                    </div>
+                                                    <div class="column is-narrow">
+                                                        <p class="bd-notification is-info">
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="column is-full">
+                                                <div class="columns is-mobile is-multiline is-gapless">
+                                                    <div class="column">
+                                                        <p class="bd-notification is-info">QNX</p>
+                                                    </div>
+                                                    <div class="column is-narrow">
+                                                        <p class="bd-notification is-info">
+                                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                      
+                                    </div>                                                                   
+                                </div>
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Programming Languages</p>
+                                        <div class="content">
+
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Java</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">C#</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">C</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">C++</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Python</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>                                                                   
+                                    </div>  
+                                </div>                               
+                                <div class="tile is-parent is-vertical">
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Database Management</p>
+                                        <div class="content">
+
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Oracle</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">SQL Server</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">MySQL</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">PostgreSQL</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Scripting Languages</p>
+                                        <div class="content">
+                                        
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Javascript</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">jQuery</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Typescript</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">PHP</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>                                                                                                        
+                                </div>
+                                <div class="tile is-parent is-vertical">
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Templating Engines</p>
+                                        <div class="content">
+
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Razor</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Freemarker</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Thymeleaf</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">CSS</p>
+                                        <div class="content">
+                                        
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Materialize</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Bulma</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Bootstrap</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">SASS</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>                                                                                                        
+                                </div>
+                                <div class="tile is-parent is-vertical">
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Frameworks</p>
+                                        <div class="content">
+
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Angular 4</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Spring Boot</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Unity</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">.NET</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">JUnit</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Node.js</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Tomcat</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Markup Languages</p>
+                                        <div class="content">
+
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">HTML</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">XML</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>                                                                                                                                            
+                                </div>
+                                <div class="tile is-parent is-vertical">
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">SCRUM</p>
+                                        <div class="content">
+                                            
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Trello</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">JIRA</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Azure Dev Ops</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tile is-child box has-background-light">
+                                        <p class="subtitle bangers-font has-text-dark">Other</p>
+                                        <div class="content">
+                                            
+                                            <div class="columns is-multiline is-gapless">
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Jekyll</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">JSON</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Git</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">Android Studio</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                                <div class="column is-full">
+                                                    <div class="columns is-mobile is-multiline is-gapless">
+                                                        <div class="column">
+                                                            <p class="bd-notification is-info">VMWare</p>
+                                                        </div>
+                                                        <div class="column is-narrow">
+                                                            <p class="bd-notification is-info">
+                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>                                                                                                        
+                                </div>
+                            </div>                                                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="hero is-fullheight is-light is-bold background">
+        <div class="hero-body">
+            <div class="container">
+
+                <div class="columns">
+                    <div class="column has-text-centered">
+                        <p class="title is-1 bangers-font">Projects</p>
+                        <h2>Have a look at my work.</h2>
+                        <hr class="has-background-dark">
+                        <br>
+                        <div class="columns is-mobile">
+                            <div class="column is-offset-1 is-4">
+                                <figure id="relay" class="image is-256x256" onclick="window.open('https://relayacademy.com/','new_window');"">
+                                    <img src="assets/site-img/About - Logo.png">
+                                </figure>                              
+                            </div>
+                            <div class="column is-offset-2 is-4">
+                                <figure id="ed" class="image is-256x256" onclick="window.open('https://edsquared.ca/','new_window');"">
+                                    <img src="assets/site-img/Splash - Logo.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                        <p class="title is-4 bangers-font">Game Project Demo</p>
+                        <h2>Coming Soon...</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>

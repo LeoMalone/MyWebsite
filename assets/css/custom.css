@@ -1,0 +1,15 @@
+.background {
+    background: url(/site-img/code.jpg) center center cover no-repeat fixed;
+}
+
+.bangers-font {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.custom-center {
+    justify-content: center;
+}
+
+#relay:hover, #ed:hover {
+    cursor: pointer;
+}
