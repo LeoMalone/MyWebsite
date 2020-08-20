@@ -1,15 +1,27 @@
-.background {
-    background: url(/site-img/code.jpg) center center cover no-repeat fixed;
-}
-
 .bangers-font {
     font-family: 'Abril Fatface', cursive;
 }
 
-.custom-center {
-    justify-content: center;
+.c_hide {
+    display: none;
+}
+
+.custom-navbar {
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
 }
 
 #relay:hover, #ed:hover {
     cursor: pointer;
+}
+
+.linkedin-colour {
+    background-color: #2867B2;
+}
+
+.cover-bg {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../site-img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
